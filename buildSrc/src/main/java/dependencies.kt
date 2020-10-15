@@ -4,7 +4,7 @@ import org.gradle.api.JavaVersion
 
 object deps {
   object versions {
-    const val androidGradle = "4.0.0"
+    const val androidGradle = "4.1.0"
     const val kotlin = "1.3.61"
     const val dagger = "2.28-alpha"
     const val okHttp = "4.3.1"
@@ -44,7 +44,7 @@ object deps {
 
   object android {
     const val constraintlayout = "androidx.constraintlayout:constraintlayout:1.1.3"
-    const val desugarJdkLibs = "com.android.tools:desugar_jdk_libs:1.0.5"
+    const val desugarJdkLibs = "com.android.tools:desugar_jdk_libs:1.0.9"
 
     object test {
       const val core = "androidx.test:core:1.2.0"

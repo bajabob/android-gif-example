@@ -25,7 +25,7 @@ android {
 
     testApplicationId = "burrows.apps.example.gif.test"
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    testInstrumentationRunnerArguments = mapOf(
+    testInstrumentationRunnerArguments += mapOf(
       "disableAnalytics" to "true",
       "clearPackageData" to "true"
     )
